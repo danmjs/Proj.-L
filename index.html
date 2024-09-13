@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="crossorigin="anonymous" referrerpolicy="no-referrer">
     <!--para interligar os codigos é perciso linka-los, como abaixo-->
     <link rel="stylesheet" href="scr/styles/style.css">
     <link rel="stylesheet" href="scr/styles/header.css">
@@ -18,133 +16,134 @@
 </head>
 <body>
     <header>
-            <nav id="navbar">
-                <i class="fa-solid fa-burger" id="nav_logo"> FOOD</i>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo"> FOOD</i>
     
-                <ul id="nav_list">
-                    <li class="nav-item active">
-                        <a href="#home">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#menu">Cardápio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#testimonials">Avaliações</a>
-                    </li>
-                </ul>
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
     
-                <button class="btn-default">
-                    Peça aqui
-                </button>
+            <button class="btn-default">
+                Peça aqui
+            </button>
     
-                <button id="mobile_btn">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-            </nav>
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
     
-            <div id="mobile_menu">
-                <ul id="mobile_nav_list">
-                    <li class="nav-item">
-                        <a href="#home">Início</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#menu">Cardápio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#testimonials">Avaliações</a>
-                    </li>
-                </ul>
-                <button class="btn-default">
-                    Peça aqui
-                </button>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+    
+    <script src="scr/Javascript/script.js"></script>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape">
+
             </div>
-        </header>
+            <div id="cta">
+                <h1 class="title">
+                    A dupla que vai vencer a sua <span>fome</span>
+                </h1>
     
-        <main id="content">
-            <section id="home">
-                <div class="shpe">
-
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+    
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver cardápio
+                    </a>
+    
+                    <a href="tel:+11111111111" id="phone_button">
+                        <button class="btn-default">
+                             <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (55) 55555-5555
+                    </a>
                 </div>
-                <div id="cta">
-                    <h1 class="title">
-                        O sabor vai até <span>você</span>
-                    </h1>
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
     
-                    <p class="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-    
-                    <div id="cta_buttons">
-                        <a href="#" class="btn-default">
-                            Ver cardápio
-                        </a>
-    
-                        <a href="tel:+11111111111" id="phone_button">
-                            <button class="btn-default">
-                                <i class="fa-solid fa-phone"></i>
-                                (55) 55555-5555
-                            </button>
-                        </a>
-                    </div>
-                    <div class="social-media-buttons">
-                        <a href="">
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </a>
-    
-                        <a href="">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
 
-                        <a href=""></a>
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                    </div>
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
                 </div>
     
                 <div id="banner">
-                    <img src="scr/images/comida 1.png" alt="">
-                </div>
-            </section>
-        </main>
-        <script src="scr/Javascript/script.js"></script>
-        <!-- Code injected by live-server -->
-        <script>
-            // <![CDATA[  <-- For SVG support
-            if ('WebSocket' in window) {
-                (function () {
-                    function refreshCSS() {
-                        var sheets = [].slice.call(document.getElementsByTagName("link"));
-                        var head = document.getElementsByTagName("head")[0];
-                        for (var i = 0; i < sheets.length; ++i) {
-                            var elem = sheets[i];
-                            var parent = elem.parentElement || head;
-                            parent.removeChild(elem);
-                            var rel = elem.rel;
-                            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-                                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-                            }
-                            parent.appendChild(elem);
+                    <img src="scr/images/Batata-burger3.png" alt="">
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
                         }
+                        parent.appendChild(elem);
                     }
-                    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-                    var address = protocol + window.location.host + window.location.pathname + '/ws';
-                    var socket = new WebSocket(address);
-                    socket.onmessage = function (msg) {
-                        if (msg.data == 'reload') window.location.reload();
-                        else if (msg.data == 'refreshcss') refreshCSS();
-                    };
-                    if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-                        console.log('Live reload enabled.');
-                        sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-                    }
-                })();
-            }
-            else {
-                console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-            }
-            // ]]>
-        </script>
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+        // ]]>
+    </script>
     
 </body>
 </html>
